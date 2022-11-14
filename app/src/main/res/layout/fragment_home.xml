@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="22dp"
+        android:drawableLeft="@drawable/ic_et_search"
+        android:drawablePadding="10dp"
+        android:hint="Search Lates News"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="12dp"
+        android:background="@drawable/et_search_background"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@drawable/cursor_color" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="22dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llCategoryAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_category_background_active"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tvCategoryAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCategoryBusiness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_category_background_passive"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:id="@+id/ivCategoryBusiness"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_category_business_passive"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvCategoryBusiness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Business"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCategoryEntertainment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_category_background_passive"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:id="@+id/ivCategoryEntertainment"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_category_entertainment_passive"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvCategoryEntertainment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Entertainment"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCategoryHealth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_category_background_passive"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:id="@+id/ivCategoryHealth"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_category_healt_passive"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvCategoryHealth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Health"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCategoryScience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_category_background_passive"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:id="@+id/ivCategoryScience"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_category_science_passive"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvCategoryScience"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Science"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCategorySports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_category_background_passive"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:id="@+id/ivCategorySports"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_category_science_passive"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvCategorySports"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Sports"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCategoryTechnology"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_category_background_passive"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:id="@+id/ivCategoryTechnology"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_category_technology_passive"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvCategoryTechnology"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Technology"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tvNewsTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:textColor="@color/newsbreak"
+                    android:text="Popular news"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvNewsBig"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSmallRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="22dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/newsbreak"
+                    android:layout_marginLeft="22dp"
+                    android:text="World lates news"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvNewsSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSmallVerticalRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/newsbreak"
+                    android:text="World breaking news"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvNewsSmallVertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="70dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

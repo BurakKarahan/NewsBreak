@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.search.SearchFragment"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="22dp"
+        android:drawableLeft="@drawable/ic_et_search"
+        android:drawablePadding="10dp"
+        android:hint="Search Lates News"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="12dp"
+        android:background="@drawable/et_search_background"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@drawable/cursor_color" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginBottom="70dp"/>
+
+
+</LinearLayout>

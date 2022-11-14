@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <EditText
+        android:id="@+id/btnCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_category_background_passive"
+        android:textColor="@color/TextBlack"
+        android:text=""
+        android:textAlignment="center"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp" />
+
+</LinearLayout>

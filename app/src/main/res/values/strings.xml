@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Newsbreak</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_save">Save</string>
+    <string name="title_user">User</string>
+
+    <string name="detail_lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="detail_date">Sat Nov 12 17:39:00 2022</string>
+    <string name="detail_title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</string>
+    <string name="detail_author">BBC News / Michael Wayland</string>
+
+    <string name="home_title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</string>
+    <string name="home_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</string>
+    <string name="apiKey">e7ee68cb06b64f75bb16d6ebcd845676</string>
+    <string name="pageSize">10</string>
+</resources>
