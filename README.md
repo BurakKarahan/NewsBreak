@@ -1,6 +1,6 @@
 # Newsbreak ~ Instant and Breaking News Platform
 
-![1](https://user-images.githubusercontent.com/38407555/201594433-9fdb3932-80f6-4ae9-96ac-6b2272e5e660.jpg)
+![1](https://user-images.githubusercontent.com/38407555/201594433-9fdb3932-80f6-4ae9-96ac-6b2272e5e660.jpg | width=200)
 
 ![2](https://user-images.githubusercontent.com/38407555/201594523-3b5c7d1d-c40a-4ec6-ab87-e0078dd4f38b.jpg)
 
