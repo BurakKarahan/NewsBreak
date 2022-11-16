@@ -1,5 +1,5 @@
 # Newsbreak ~ Instant and Breaking News Platform
-Android instant and breaking News platform
+Android instant and breaking News platform, Shows current and popular news using Newsapi
 
 <img src="https://user-images.githubusercontent.com/38407555/201594433-9fdb3932-80f6-4ae9-96ac-6b2272e5e660.jpg" width="250" height="550"/> &nbsp; <img src="https://user-images.githubusercontent.com/38407555/202093185-6aeebcb2-8d44-4218-a25c-da6596cd7e0e.jpg" width="250" height="550" /> &nbsp; <img src="https://user-images.githubusercontent.com/38407555/201594540-faf1e009-49fa-48a8-8a39-a2ac1f411f62.jpg" width="250" height="550"/>
 
